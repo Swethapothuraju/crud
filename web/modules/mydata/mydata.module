@@ -1,0 +1,7 @@
+<?php
+
+
+function mydata_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'mydata/mydata';
+}
+ ?>
